@@ -1,0 +1,8 @@
+.tramo:hover {
+    cursor: pointer;
+    background: rgb(243, 243, 243);
+}
+
+.tramo {
+    transition: all ease-in-out .3s;
+}
