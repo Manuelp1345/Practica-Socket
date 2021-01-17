@@ -1,5 +1,7 @@
 [build]
   functions = "src/"
+  publish = "public/" 
+
 
 [dev]
   publish = "public/" 
