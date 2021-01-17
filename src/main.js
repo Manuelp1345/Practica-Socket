@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.static(publicPath));
 
-module.exports.io = socketIO(server);
+module.exports.handler = socketIO(server);
 require("./sockets/socket");
 
 

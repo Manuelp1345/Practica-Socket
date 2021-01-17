@@ -1,4 +1,4 @@
-const { io } = require('../main');
+const { handler } = require('../main');
 const mongoose = require("mongoose");
 const tramos = require('../models/tramos');
 
@@ -14,7 +14,7 @@ mongoose.connect('mongodb+srv://tramos:17c5baEG0XN9lla4@tramos.mu1my.mongodb.net
     console.log("base de datos ONLINE");
 });
 
-io.on('connection', (client) => {
+handler.on('connection', (client) => {
 
     console.log("conectado")
 
