@@ -1,7 +1,7 @@
 [build]
-  functions = "src/main.js"
-  publish = "public/" 
+  functions = "src"
+  publish = "public" 
 
 
 [dev]
-  publish = "public/" 
+  publish = "public" 

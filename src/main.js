@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.static(publicPath));
 
-module.exports.handler = socketIO(server);
+module.exports.io = socketIO(server);
 require("./sockets/socket");
 
 
@@ -24,3 +24,6 @@ server.listen(port, (err) => {
     console.log(`Servidor corriendo en puerto ${ port }`);
 
 });
+
+module.exports = app;
+module.exports.handler = server;
