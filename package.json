@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": " ./node_modules/.bin/netlify-lambda serve main.js",
-        "build": " ./node_modules/.bin/netlify-lambda build main.js"
+        "start": " ./node_modules/.bin/netlify-lambda serve src",
+        "build": " ./node_modules/.bin/netlify-lambda build src"
     },
     "keywords": [],
     "author": "",
