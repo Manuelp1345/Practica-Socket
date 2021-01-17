@@ -1,5 +1,5 @@
 [build]
-  functions = "functions"
+  functions = "main.js"
 
 [dev]
   publish = "public"
